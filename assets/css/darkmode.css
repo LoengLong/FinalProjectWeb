@@ -80,6 +80,9 @@ body.dark-mode {
 .dark-mode .card-body a{
     color: #ccc;
 }
+.dark-mode .nav-link:hover{
+  color: #8eb7f5 !important;
+}
 .dark-mode .templatemo-accordion a{
     color: #ccc;
 
