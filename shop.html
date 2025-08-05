@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+      <link rel="stylesheet" href="assets/css/darkmode.css">
 
     <!-- Load fonts style after rendering the layout styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
@@ -99,7 +100,10 @@ https://templatemo.com/tm-559-CCambo-shop
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
                     </a>
                     <a class="nav-icon position-relative text-decoration-none" href="#">
-                        <i class="bi bi-suit-heart-fill"></i>
+                        <div class="form-check form-switch ms-3 mt-2">
+                            <input class="form-check-input" type="checkbox" id="darkModeToggle">
+                            <label class="form-check-label text-dark" for="darkModeToggle"></label>
+                        </div>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
                     </a>
                 </div>
@@ -931,6 +935,26 @@ https://templatemo.com/tm-559-CCambo-shop
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- End Script -->
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const toggle = document.getElementById("darkModeToggle");
+            // Load mode from localStorage
+            if (localStorage.getItem("dark-mode") === "enabled") {
+                document.body.classList.add("dark-mode");
+                toggle.checked = true;
+            }
+            toggle.addEventListener("change", function () {
+                if (this.checked) {
+                    document.body.classList.add("dark-mode");
+                    localStorage.setItem("dark-mode", "enabled");
+                } else {
+                    document.body.classList.remove("dark-mode");
+                    localStorage.setItem("dark-mode", "disabled");
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

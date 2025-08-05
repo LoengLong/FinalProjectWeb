@@ -1,0 +1,84 @@
+/* ===================== */
+/* DARK MODE OVERRIDES   */
+/* ===================== */
+
+body.dark-mode {
+  background-color: #121212 !important;
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .bg-light,
+.dark-mode #template-mo-zay-hero-carousel {
+  background-color: #1f1f1f !important;
+}
+
+.dark-mode .text-dark {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .navbar-light {
+  background-color: #1f1f1f !important;
+}
+
+.dark-mode .nav-link,
+.dark-mode .logo,
+.dark-mode .navbar-brand {
+  color: #e0e0e0 !important;
+}
+
+.dark-mode .card {
+  background-color: #252525 !important;
+  color: #f0f0f0 !important;
+}
+
+.dark-mode .card-text,
+.dark-mode .text-muted {
+  color: #bbb !important;
+}
+
+.dark-mode .modal-content,
+.dark-mode .form-control,
+.dark-mode .input-group-text {
+  background-color: #333 !important;
+  color: #fff !important;
+  border-color: #444 !important;
+}
+
+.dark-mode .footer-link-list a,
+.dark-mode .footer-icons i,
+.dark-mode #tempaltemo_footer {
+  color: #cfcfcf !important;
+}
+
+.dark-mode .footer-icons li:hover {
+  background-color: #444 !important;
+}
+
+.dark-mode .footer-icons li:hover i {
+  color: #fff !important;
+}
+
+.dark-mode .bg-dark,
+.dark-mode .bg-black,
+.dark-mode .bg-primary {
+  background-color: #181818 !important;
+}
+
+.dark-mode .btn-primary,
+.dark-mode .bg-success {
+  background-color: #007bff !important;
+  border-color: #007bff !important;
+}
+
+/* Fix for carousel nav icons */
+.dark-mode .carousel-control-next i,
+.dark-mode .carousel-control-prev i {
+  color: #ccc !important;
+}
+.dark-mode .card-body a{
+    color: #ccc;
+}
+.dark-mode .templatemo-accordion a{
+    color: #ccc;
+
+}
