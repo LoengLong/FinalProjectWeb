@@ -23,6 +23,9 @@ body.dark-mode {
 .dark-mode .nav-link{
   color: #e0e0e0 !important;
 }
+.dark-mode .nav-link:hover{
+  color: #8eb7f5 !important;
+}
 
 .dark-mode .card {
   background-color: #252525 !important;
@@ -47,6 +50,7 @@ body.dark-mode {
 .dark-mode #tempaltemo_footer {
   color: #cfcfcf !important;
 }
+
 
 .dark-mode .footer-icons li:hover {
   background-color: #444 !important;
