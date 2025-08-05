@@ -20,9 +20,7 @@ body.dark-mode {
   background-color: #1f1f1f !important;
 }
 
-.dark-mode .nav-link,
-.dark-mode .logo,
-.dark-mode .navbar-brand {
+.dark-mode .nav-link{
   color: #e0e0e0 !important;
 }
 
